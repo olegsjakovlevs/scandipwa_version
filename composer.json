@@ -1,10 +1,7 @@
 {
     "name": "scandipwa/pwaversion",
-    "type": "magento2-module",
     "description": "Returns ScandiPWA version",
-    "license": [
-        "OSL-3.0"
-    ],
+    "type": "magento2-module",
     "require": {
         "magento/framework": "*",
         "magento/module-store": "*",
@@ -17,7 +14,10 @@
             "src/registration.php"
         ],
         "psr-4": {
-            "ScandiPWA\\Version\\": "src"
+            "ScandiPWA\\Version\\": "src/"
         }
-    }
+    },
+    "license": [
+        "OSL-3.0"
+    ]
 }
